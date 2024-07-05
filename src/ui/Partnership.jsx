@@ -35,7 +35,7 @@ const infoQuestions = [
 
 const Partnership = () => {
   return (
-    <section className="py-24 md:px-8 space-y-20">
+    <section id="partnerships" className="py-24 md:px-8 space-y-20">
       <div className="w-[90%] md:w-[70%] flex flex-col gap-16 m-auto text-center">
         <div className="space-y-3">
           <h3 className="text-3xl md:text-4xl font-semibold">Partnership</h3>

@@ -3,7 +3,10 @@ import NoCost from "../assets/nocost.png";
 
 const Pricing = () => {
   return (
-    <section className="py-24 border-y border-secondary flex items-center justify-between">
+    <section
+      id="pricing"
+      className="py-24 border-y border-secondary flex items-center justify-between"
+    >
       <div className="w-[90%] m-auto grid md:grid-cols-2">
         <div className="flex flex-col gap-8">
           <div className="space-y-3">

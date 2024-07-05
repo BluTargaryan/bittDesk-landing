@@ -39,7 +39,10 @@ const paymentOptions = [
 function DonationScheme() {
   const [selected, setSelected] = useState("one-time");
   return (
-    <div className="py-24 w-[90%] md:w-[70%] m-auto text-center space-y-14">
+    <section
+      id="donations"
+      className="py-24 w-[90%] md:w-[70%] m-auto text-center space-y-14"
+    >
       <div className="space-y-3">
         <h3 className="text-3xl md:text-4xl font-semibold">Donate Scheme</h3>
         <p>Support BittDesk and help us grow.</p>
@@ -78,7 +81,7 @@ function DonationScheme() {
           ))}
         </div>
       </div>
-    </div>
+    </section>
   );
 }
 

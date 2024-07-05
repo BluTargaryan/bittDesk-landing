@@ -21,7 +21,10 @@ const testimonies = [
 
 const Testimonials = () => {
   return (
-    <section className="py-24 w-[90%] m-auto flex flex-col gap-20 items-center justify-center">
+    <section
+      id="testimonials"
+      className="py-24 w-[90%] m-auto flex flex-col gap-20 items-center justify-center"
+    >
       <h1 className="text-4xl font-semibold">Testimonials</h1>
 
       <div className="grid md:grid-cols-3 gap-8 items-center justify-center">

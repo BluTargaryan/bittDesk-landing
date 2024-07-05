@@ -23,17 +23,12 @@ const Nav = () => {
           </Link>
         </li>
         <li>
-          <Link className="navLink" smooth={true} duration={300} href="pricing">
+          <Link className="navLink" smooth={true} duration={300} to="pricing">
             Pricing
           </Link>
         </li>
         <li>
-          <Link
-            className="navLink"
-            smooth={true}
-            duration={300}
-            href="donations"
-          >
+          <Link className="navLink" smooth={true} duration={300} to="donations">
             Donations
           </Link>
         </li>
@@ -42,18 +37,18 @@ const Nav = () => {
             className="navLink"
             smooth={true}
             duration={300}
-            href="partnerships"
+            to="partnerships"
           >
             Partnerships
           </Link>
         </li>
         <li>
-          <Link className="navLink" smooth={true} duration={300} href="faqs">
+          <Link className="navLink" smooth={true} duration={300} to="faqs">
             FAQs
           </Link>
         </li>
         <li>
-          <Link className="navLink" smooth={true} duration={300} href="contact">
+          <Link className="navLink" smooth={true} duration={300} to="contact">
             Contact Us
           </Link>
         </li>

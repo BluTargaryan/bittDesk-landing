@@ -38,7 +38,7 @@ const FAQs = () => {
   const [selected, setSelected] = useState("");
 
   return (
-    <div className="py-24 w-[60%] m-auto text-center space-y-14">
+    <section id="faqs" className="py-24 w-[60%] m-auto text-center space-y-14">
       <div className="space-y-3">
         <h3 className="text-4xl font-semibold">FAQs</h3>
         <p>Got questions? We got answers.</p>
@@ -55,7 +55,7 @@ const FAQs = () => {
           />
         ))}
       </div>
-    </div>
+    </section>
   );
 };
 
