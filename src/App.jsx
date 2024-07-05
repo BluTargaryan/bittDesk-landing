@@ -1,25 +1,28 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import Hero from './components/Hero'
-import Features from './components/Features'
-import Testimonials from './components/Testimonials'
-import Pricing from './components/Pricing'
-import Crowdfunding from './components/Crowdfunding'
-import FAQ from './components/FAQ'
+import { useState } from "react";
+import reactLogo from "./assets/react.svg";
+import viteLogo from "/vite.svg";
+import Pricing from "./components/Pricing";
+import Partnership from "./ui/Partnership";
+import Hero from "./ui/Hero";
+import Features from "./ui/Features";
+import Testimonials from "./ui/Testimonials";
+import DonationScheme from "./ui/DonationScheme";
+import FAQs from "./ui/FAQs";
+import Contact from "./ui/Contact";
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
-    <div className='bg-primary font-montserrat'>
-    <Hero />
-    <Features />
-    <Testimonials />
-    <Pricing />
-    <Crowdfunding />
+    <div className="font-montserrat m-auto">
+      <Hero />
+      <Features />
+      <Testimonials />
+      <Pricing />
+      <DonationScheme />
+      <Partnership />
+      <FAQs />
+      <Contact />
     </div>
-  )
+  );
 }
 
-export default App
+export default App;

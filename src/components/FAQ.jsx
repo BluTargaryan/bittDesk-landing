@@ -1,14 +1,24 @@
-import React from 'react'
+import { useState } from "react";
 
-const FAQ = () => {
+function FAQ({ question, answer, selected, getSelected }) {
+  const [showAnswer, setShowAnswer] = useState(false);
+
+  const toggleAnswer = () => {
+    setShowAnswer((answer) => !answer);
+    getSelected(question);
+  };
+
+  const answerStyles =
+    question === selected ? "flex text-base text-left w-full" : "hidden";
   return (
-    <section className="py-24 px-8 flex flex-col gap-20 items-center">
-<div className="flex flex-col gap-6 items-center">
-        <h1 className="text-4xl font-semibold">FAQs</h1>
-        <p className="text-xl">Got questions? We got answers.</p>
-      </div>
-  </section>
-  )
+    <button
+      className="border border-primary rounded-2xl px-8 py-4 w-full flex flex-col gap-4 shadow-custom"
+      onClick={toggleAnswer}
+    >
+      <h4 className="font-semibold text-xl">{question}</h4>
+      <p className={answerStyles}>{answer}</p>
+    </button>
+  );
 }
 
-export default FAQ
+export default FAQ;
