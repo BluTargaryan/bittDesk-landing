@@ -41,7 +41,7 @@ function DonationScheme() {
   return (
     <section
       id="donations"
-      className="py-24 w-[90%] md:w-[70%] m-auto text-center space-y-14"
+      className="py-16 md:py-24 w-[90%] md:w-[70%] m-auto text-center space-y-14"
     >
       <div className="space-y-3">
         <h3 className="text-3xl md:text-4xl font-semibold">Donate Scheme</h3>
@@ -69,7 +69,7 @@ function DonationScheme() {
 
       <div className="p-4 md:p-12 md:pt-6 shadow-custom rounded-xl space-y-8">
         <h3 className="font-semibold">Donate using</h3>
-        <div className="flex flex-col gap-4 md:flex-row justify-between items-center md:w-[40%] m-auto">
+        <div className="flex flex-col gap-6 md:flex-row justify-between items-center md:w-[40%] m-auto">
           {paymentOptions.map((option) => (
             <Link
               to={"#"}

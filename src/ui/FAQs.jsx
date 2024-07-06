@@ -38,7 +38,10 @@ const FAQs = () => {
   const [selected, setSelected] = useState("");
 
   return (
-    <section id="faqs" className="py-24 w-[60%] m-auto text-center space-y-14">
+    <section
+      id="faqs"
+      className="py-16 w-[90%] md:py-24 md:w-[60%] m-auto text-center space-y-7 md:space-y-14"
+    >
       <div className="space-y-3">
         <h3 className="text-4xl font-semibold">FAQs</h3>
         <p>Got questions? We got answers.</p>

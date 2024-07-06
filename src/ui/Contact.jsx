@@ -2,7 +2,7 @@ import { useState } from "react";
 import Button from "../components/Button";
 
 const inputStyles =
-  "appearance-none block w-full p-3 mb-4 border border-secondary rounded-xl bg-primary text-black resize-none focus:outline-none focus:ring-0 focus:border-secondary placeholder-gray-500 text-lg";
+  "appearance-none block w-full p-3 mb-4 border border-secondary rounded-xl bg-primary text-black resize-none focus:outline-none focus:ring-0 focus:border-secondary placeholder-gray-500 text-base md:text-lg";
 
 function Contact() {
   const [name, setName] = useState("");
@@ -17,21 +17,21 @@ function Contact() {
   return (
     <section
       id="contact"
-      className="py-24 w-[70%] m-auto text-center space-y-14"
+      className="py-16 md:py-24 w-[90%] md:w-[70%] m-auto text-center space-y-7 md:space-y-14"
     >
       <div className="space-y-3">
-        <h3 className="text-4xl font-semibold">Contact us</h3>
+        <h3 className="text-3xl md:text-4xl font-semibold">Contact us</h3>
         <p>Support BittDesk and help us grow.</p>
       </div>
 
-      <p className="text-2xl font-medium">
+      <p className="text-lg md:text-2xl font-medium">
         Have a question or need support? Fill out the form below and we'll get
         back to you as soon as possible.
       </p>
 
       <form
         onSubmit={handleSubmit}
-        className="p-12 shadow-custom rounded-2xl flex flex-col gap-2 items-center"
+        className="p-6 md:p-12 shadow-custom rounded-2xl flex flex-col md:gap-2 items-center"
       >
         <input
           type="text"

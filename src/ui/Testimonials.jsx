@@ -23,9 +23,9 @@ const Testimonials = () => {
   return (
     <section
       id="testimonials"
-      className="py-24 w-[90%] m-auto flex flex-col gap-20 items-center justify-center"
+      className="py-16 md:py-24 w-[90%] m-auto flex flex-col gap-8 md:gap-20 items-center justify-center"
     >
-      <h1 className="text-4xl font-semibold">Testimonials</h1>
+      <h1 className="text-3xl md:text-4xl font-semibold">Testimonials</h1>
 
       <div className="grid md:grid-cols-3 gap-8 items-center justify-center">
         {testimonies.map((testimony) => (

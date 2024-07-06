@@ -1,7 +1,7 @@
 import { useState } from "react";
 import reactLogo from "./assets/react.svg";
 import viteLogo from "/vite.svg";
-import Pricing from "./components/Pricing";
+import Pricing from "./ui/Pricing";
 import Partnership from "./ui/Partnership";
 import Hero from "./ui/Hero";
 import Features from "./ui/Features";
