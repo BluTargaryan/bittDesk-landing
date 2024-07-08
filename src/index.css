@@ -14,7 +14,7 @@ body {
 .navLink::before {
   content: "";
   position: absolute;
-  top: 150%;
+  top: 120%;
   left: 50%;
   transform: translateX(-50%);
   height: 0.5rem;
