@@ -3,7 +3,7 @@ import NoCost from "../assets/nocost.png";
 
 const Pricing = () => {
   return (
-    <section id="pricing" className="py-16 md:py-24 border-y border-secondary">
+    <section id="pricing" className="py-16 md:py-24 ">
       <div className="w-[90%] m-auto grid md:grid-cols-2 gap-8">
         <div className="flex flex-col gap-8">
           <div className="space-y-3">

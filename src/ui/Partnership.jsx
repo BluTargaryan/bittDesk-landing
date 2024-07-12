@@ -4,6 +4,7 @@ import Feature from "../components/Feature";
 import Charity from "../assets/charity.png";
 import Crowdfund from "../assets/crowdfunding.png";
 import Button from "../components/Button";
+import FeatureNoDetail from "../components/FeautreNoDetail";
 
 const partnershipOptions = [
   {
@@ -47,7 +48,7 @@ const Partnership = () => {
         </p>
         <div className="grid grid-cols-1 md:grid-cols-2 items-center justify-center gap-16">
           {partnershipOptions.map((partnership, index) => (
-            <Feature
+            <FeatureNoDetail
               key={index}
               image={partnership.image}
               title={partnership.title}

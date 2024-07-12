@@ -16,9 +16,10 @@ const Nav = () => {
   };
 
   return (
-    <nav className="w-full bg-secondary flex flex-row p-4 md:px-8 justify-between items-center text-primary relative">
+    <nav className="w-full bg-secondary flex flex-row p-4 md:px-8 justify-between items-center text-primary fixed z-20">
+      <Link className="navLink" smooth={true} duration={300} to="hero">
       <div className="self-start text-2xl md:text-4xl font-bold">BittDesk</div>
-
+      </Link>
       <ul
         className={`absolute z-10 left-0 top-16 md:static md:w-max text-sm py-2 md:p-0 flex-col md:flex-row md:flex md:gap-6 md:text-lg bg-secondary md:bg-transparent transition-all duration-200 ease-in-out ${
           isMenuOpen ? "left-0 right-0" : "right-full"
