@@ -10,14 +10,12 @@ const Hero = () => {
     >
       <div className="flex flex-col gap-6 md:gap-12 order-1 text-center md:text-left">
         <h1 className="text-3xl md:text-4xl font-semibold">
-          Experience the Future of Free IT Support
+        Experience the future of free ITSM tools
         </h1>
 
         <div className="flex flex-col gap-4 items-center md:items-start">
           <p className="text-lg md:text-2xl">
-            BittDesk is a revolutionary product offering unparalleled IT support
-            services, completely free. Backed by TheITApprentice.com, our
-            mission is to make quality tech support accessible to everyone.
+          BittDesk is a free helpdesk software solution designed to provide exceptional IT support services. Powered by TheITApprentice.com, our goal is to make reliable tech support tools available to everyone.
           </p>
           <Button content="Get BittDesk now!" width="w-64" />
         </div>
