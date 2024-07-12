@@ -26,12 +26,19 @@ const Nav = () => {
         }`}
       >
         <li className={itemStyle}>
-          <Link className="navLink" smooth={true} duration={300} to="features">
+          <Link
+            className="navLink"
+            onClick={toggleMenu}
+            smooth={true}
+            duration={300}
+            to="features"
+          >
             Features
           </Link>
         </li>
         <li className={itemStyle}>
           <Link
+            onClick={toggleMenu}
             className="navLink"
             smooth={true}
             duration={300}
@@ -41,17 +48,30 @@ const Nav = () => {
           </Link>
         </li>
         <li className={itemStyle}>
-          <Link className="navLink" smooth={true} duration={300} to="pricing">
+          <Link
+            className="navLink"
+            onClick={toggleMenu}
+            smooth={true}
+            duration={300}
+            to="pricing"
+          >
             Pricing
           </Link>
         </li>
         <li className={itemStyle}>
-          <Link className="navLink" smooth={true} duration={300} to="donations">
+          <Link
+            className="navLink"
+            onClick={toggleMenu}
+            smooth={true}
+            duration={300}
+            to="donations"
+          >
             Donations
           </Link>
         </li>
         <li className={itemStyle}>
           <Link
+            onClick={toggleMenu}
             className="navLink"
             smooth={true}
             duration={300}
@@ -61,12 +81,24 @@ const Nav = () => {
           </Link>
         </li>
         <li className={itemStyle}>
-          <Link className="navLink" smooth={true} duration={300} to="faqs">
+          <Link
+            className="navLink"
+            onClick={toggleMenu}
+            smooth={true}
+            duration={300}
+            to="faqs"
+          >
             FAQs
           </Link>
         </li>
         <li className={itemStyle}>
-          <Link className="navLink" smooth={true} duration={300} to="contact">
+          <Link
+            className="navLink"
+            onClick={toggleMenu}
+            smooth={true}
+            duration={300}
+            to="contact"
+          >
             Contact Us
           </Link>
         </li>
